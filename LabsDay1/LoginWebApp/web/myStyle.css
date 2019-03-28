@@ -1,0 +1,123 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 5, 2019, 1:45:03 PM
+    Author     : Radya
+*/
+
+body{
+    background-image:url("images/2.jpg");
+    background-size: cover;
+    background-color:#E6E6F5;
+}
+#SitesDirectory
+{
+    font-family:"Bernard MT Condensed";
+    font-size: 25px;
+    color:#003d99;
+    margin-left: 40%;
+}
+dl dt h3{
+    font-family:"Algerian";
+    font-size: 25px;
+    color:#003d99;
+}
+
+dl dd p{
+    font-family:"Bernard MT Condensed";
+    font-size: 20px;
+    color:#0052cc;
+}
+dd a{
+    font-family:"Bernard MT Condensed";
+    font-size: 20px;
+    font-style: italic;
+    color:#0052cc;
+}
+footer{
+    font-family:"Bernard MT Condensed";
+    font-size: 20px;
+    color:#0052cc;
+}
+figure > *{
+    margin: 0 auto 0.5em;
+    padding: 0.5em;
+    display:block;
+}
+#figname {
+    float: right;
+    color:#003d99;
+    width: 30%;
+    text-align: center;
+    font-size: x-large;
+    font-family:"Bernard MT Condensed";
+    text-indent: 0;
+    margin: 0.5em;
+    padding: 0.5em;
+}
+.center {
+    margin: auto;
+    margin-top: 10%;
+    width: 40%;
+    border: 3px solid #1F497D;
+    padding: 10px;
+  }
+
+form{
+    font-family:"Bernard MT Condensed";
+    font-size: 18px;
+    color:#003d99;
+}
+input[type=submit],input[type=reset] {
+    width: 30%;
+    background-color: #1F497D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    margin-left: 35%;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=submit]:hover {
+    background-color: rgb(45, 101, 168);
+}
+input[type=reset]:hover {
+    background-color: rgb(45, 101, 168);
+}
+input[type=text], input[type=password],input[type=number],input[type=search],input[type=url],input[type=email],input[type=tel],input[type=date],input[type=range],input[type=file],select {
+    width: 60%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  header{
+    background-color:  #1F497D;
+    text-align: center;
+    color: #fff;
+  }
+
+  fieldset {
+    font-family: sans-serif;
+    border: 5px solid #1F497D;
+    background: #ddd;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+fieldset legend {
+    background: #1F497D;
+    color: #fff;
+    padding: 5px 10px ;
+    font-size: 32px;
+    border-radius: 5px;
+    box-shadow: 0 0 0 5px #ddd;
+    margin-left: 20px;
+}
