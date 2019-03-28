@@ -1,0 +1,24 @@
+<html>
+  <head>
+    <title>login page</title>
+    <link rel="stylesheet" tybe="text/css" href="myStyle.css"/>
+  </head>
+  <body>
+    <main class="center">
+        <form action="LoginServlet" method="post">
+        <label for="username">User Name: </label>
+        <input type="text" id="username" name="userName" maxlength="10" placeholder="User name.." required/>
+        <br>
+        <br>
+        <label for="password">Password: </label>
+        <input type="password" id="password" name="Password" placeholder="Password" required/>
+        <br>
+        <br>
+        <input type="checkbox" name="remember" value="Bike"/> Remember me
+        <br>
+        <br>
+        <input type="submit" name="Submit" value="Submit"/>
+      </form>
+    </main>
+  </body>
+</html>
